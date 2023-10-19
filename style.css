@@ -1,0 +1,34 @@
+.scene {
+  position: absolute;
+  
+  background: url('Comp.gif') ;
+  background-size: cover;
+  
+  text-align: center;
+}
+
+.magic {
+  z-index: 5;
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('Comp_1.gif') 50% 50% no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+}
+.check-out {
+  z-index: 100;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: #fff;
+  font-family: test;
+  
+  a {
+    color: rgba(255,170,170,1);
+  }
+}
