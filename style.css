@@ -1,9 +1,9 @@
 .scene {
-  position: absolute;
-  
+  position: relative;
+  height: 200%;
   background: url('Comp.gif') ;
   background-size: cover;
-  
+  padding: 40rem;
   text-align: center;
 }
 
